@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap Class</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <h2>Navigation Bars</h2>
+    <!-- Navigation Bars 1-->
+    <ul class="nav nav-pills">
+        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+    </ul>
+    <!-- Navigation Bar 2 -->
+
+
+    <!-- Adding Background Colors to contents 
+   bg-dark (black), bg-primary (blue), bg-success (green), bg-secondary (Ash)
+   bg-warning (yellow), bg-danger (red), bg-light (white) -->
+
+    <ul class="nav nav-pills bg-danger">
+        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+    </ul>
+
+    <!-- Navigation bar 3 -->
+    <!-- BootStrap helps to Align or justify contents through the class
+    justify-content-end (Right)
+    justify-content-center (Middle)
+    justify-content-top (Left) -->
+
+    <ul class="nav nav-pills justify-content-end bg-dark">
+        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+    </ul>
+    <!-- Navigation Bar 4  -->
+    <!-- dropdown can be achieved with a simple BootStrapStructure as a Nav Menu or option 
+         can be converted into a drop down MENU  -->
+
+    <ul class="nav nav-pills justify-content-center">
+        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Service
+            s</a></li>
+        <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+            <ul class="dropdown-menu bg-default">
+                <li class="dropdown-item"><a href="" class="nav-link">Shoe</a></li>
+                <li class="dropdown-item"><a href="" class="nav-link">Bags</a></li>
+                <li class="dropdown-item"><a href="" class="nav-link">Cup Cakes</a></li>
+                <li class="dropdown-item"><a href="" class="nav-link">Cloths</a></li>
+            </ul>
+        </li>
+        <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+    </ul>
+    <!-- Day 2 Buttons -->
+
+    <!--1. html button -->
+    <button>Send</button>
+
+    <!-- Buttons with Bootstrap Classes -->
+    <!-- A colorless button  -->
+    <button class="btn ">Send</button>
+
+    <!-- To add colors to the butons the following classes are available
+    btn-danger (red), btn-success (green), btn-primary (Blue), btn-secondary (Ash/Gray) btn-warning (Yellow), btn-light
+    (white) , btn-dark (black) -->
+    <button class="btn btn-success">Green</button>
+    <button class="btn btn-danger">Red</button>
+    <button class="btn btn-dark">Black</button> <br>
+
+    <!-- Button Size can actually be made small or big... 
+    Depending on the intended size you desire to use btn-lg(Large Size), btn-sm (Small Size) btn-xs-->
+    <button class="btn btn-lg btn-success">Large Button</button>
+    <a href="" class="btn btn-xs btn-primary">Next less Size</a>
+    <a href="" class="btn btn-sm btn-outline-warning">Smallest Size</a> <br>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- navigation section  -->
+    <ul class="nav nav-pills">
+        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Products</a></li>
+    </ul>
+
+    <!-- navigation section - the position of the items can be adjusted with 
+        justify-content-center (Middle), justify-content-end(right side), 
+        justify-content-top(left side)
+    -->
+    <ul class="nav nav-pills justify-content-center bg-dark">
+        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Products</a></li>
+    </ul>
+    <!-- navigation section- Background color of the Nav can be changed using 
+        class name bg-dark(black), bg-warning(yellow), bg-danger(red), 
+        bg-success(green), bg-primary(blue), bg-light(white) bg-secondary(grey)
+     -->
+    <ul class="nav nav-pills bg-warning justify-content-end">
+        <li class="nav-item"><a href="" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Products</a></li>
+    </ul>
+
+    <ul class="nav breadcrumbs bg-secondary justify-content-center">
+        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link active">Services</a></li>
+        <li class="nav-item"><a href="" class="nav-link">About</a></li>
+    </ul>
+
+    <!-- Buttons can be achieved through the use of (<a href=""></a>)  and class btn  -->
+    <a href="" class="btn">Button Sample</a>
+    <!-- colors can be added to buttons via the use of class (btn-warning = yellow, btn-danger = red, 
+        btn-secondary = grey,btn-primary = blue, btn-dark = black, btn-default(No colour) 
+        btn-successn = Green, btn-info = cyan ) -->
+
+    <a href="" class="btn btn-warning">Button Sample 2</a>
+    <a href="" class="btn btn-primary">Button Sample 3</a>
+    <a href="" class="btn btn-danger">Button Sample 4</a>
+    <!-- We can as well use the HTML button element to achieve the same rsult -->
+    <button class="btn btn-success">HTML ELEMENT</button>
+    <button class="btn btn-info">HTML ELEMENT 2</button>
+    <button class="btn btn-secondary">HTML ELEMENT 3</button>
+
+    <form action="" method="post">
+        <label for="name">Search Here</label> <input type="text">
+        <button class="btn btn-primary">Send</button>
+    </form>
+    <!-- We can add border colors by using the class name btn-outline-colorClassName -->
+    <a href="" class="btn btn-outline-warning">Outline Button 1</a>
+    <a href="" class="btn btn-outline-primary">Outline Button 2</a>
+    <a href="" class="btn btn-outline-info">Outline Button 3</a>
+    <a href="www.google.com" class="btn btn-outline-dark">Outline Button 2</a> <br>
+
+    <!-- The sizeof the buttons can be made big or small with the class names:
+         btn-lg (big size), btn-sm (small Size), btn-xs (Extra Small) -->
+    <button class="btn btn-lg btn-primary">Size LG </button>
+    <a href="" class="btn btn-primary btn-sm">Size Sm</a>
+    <button class="btn btn-outline-dark btn-xs">Size Xs</button>
+
+    <!-- Different Sizes of width can be approached using the following classes -->
+    <div class="container-fluid border">
+        Here is the whole width
+    </div>
+    <div class="container border">
+        Here is another
+    </div>
+    <div class="container border">
+        <div class="row">
+            <div class="col-4">
+                <h4>New Products</h4>
+                <img src="./img/11.png" alt="">
+                <p> <b>N</b> 3,000</p>
+            </div>
+            <div class="col-4">
+                <h4>New Delivery</h4>
+                <img src="./img/8.png" alt="">
+            </div>
+            <div class="col-4">
+                <h4>New Systems</h4>
+                <img src="./img/10.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
